@@ -11,6 +11,9 @@ RUN apt-get update && apt-get install -y \
     libssl-dev \
     libpq5 \
     ca-certificates \
+    default-mysql-client \
+    default-libmysqlclient-dev \
+    libmysqlclient21 \
     && rm -rf /var/lib/apt/lists/*
 
 # Copia o executável (Substitua 'SeuExecutavel' pelo nome real)
